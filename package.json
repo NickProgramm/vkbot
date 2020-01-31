@@ -1,0 +1,20 @@
+{
+  "name": "vk-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo Test OK",
+    "start": "node bot.js",
+    "start-nodemon": "nodemon bot.js"
+  },
+  "author": "NickProgramm",
+  "license": "MIT",
+  "dependencies": {
+    "@vk-io/scenes": "0.0.0-alpha.5",
+    "@vk-io/session": "0.0.0-alpha.3",
+    "moment": "^2.24.0",
+    "snekfetch": "^4.0.4",
+    "vk-io": "^4.0.0-rc.30"
+  }
+}
